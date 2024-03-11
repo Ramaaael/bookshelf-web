@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah Ramadan | Bookshelf</title>
+
+    <!---------------- LINK -------------->
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+<header>
+    <h1 class="name-header">Bookshelf Apps</h1>
+</header>
+    <main>
+<!------------------------------ FORM ADD BOOKS --------------------------------------->
+        <section class="bookshelf-1">
+            <h2 class="header-shelf-1">Add Books</h2>
+            <form id="add-book">
+                
+                <div class="add">
+                    <label for="addBooksTitle">Title</label>
+                    <input type="text" id="addBooksTitle">
+                </div>
+
+                <div class="add">
+                    <label for="addBooksAuthor">Writer / Author</label>
+                    <input type="text" id="addBooksAuthor">
+                </div>
+
+                <div class="add">
+                    <label for="addBooksYear">Year</label>
+                    <input type="number" id="addBooksYear">
+                </div>
+
+                <div class="add-inline">
+                    <label for="addBooksComplate" class="inline-checkbox">Complate</label>
+                    <input type="checkbox" id="addBooksComplate">
+                    <!-- <label for="addBooksNoComplate" class="inline-checkbox">Not Finished Yet</label> -->
+                    <!-- <input type="checkbox" id="addBooksNoComplate" required> -->
+                </div>
+
+                <button id="submit" class="button-add">Add to bookshelf</button>
+            </form>
+        </section>
+
+
+<!------------------------------ FORM COMPLATE --------------------------------------->
+
+        <section class="bookshelf-2">
+            <h2 class="header-shelf-2">Complate</h2>
+            <div id="complateBook" class="book-list">
+            
+                <!-- <article class="book-item"> -->
+                    <!-- <h3 id="title-item" class="title-item"></h3> -->
+                    <!-- <p class="author-item"></p> -->
+                    <!-- <p class="year-item"></p> -->
+
+                    <!-- <div class="action"> -->
+                        <!-- <button class="done">Done</button> -->
+                        <!-- <button class="remove">Remove</button> -->
+                    <!-- </div> -->
+                <!-- </article> -->
+
+            </div>
+        </section>
+
+<!------------------------------ FORM NO COMPLATE --------------------------------------->
+
+        <section class="bookshelf-2">
+            <h2 class="header-shelf-2">Not Finished Yet</h2>
+            <div id="noComplateBook" class="book-list">
+                
+                <!-- <article class="book-item"> -->
+                    <!-- <h3 class="title-item">P</h3> -->
+                    <!-- <p class="author-item"></p> -->
+                    <!-- <p class="year-item"></p> -->
+
+                    <!-- <div class="action"> -->
+                        <!-- <button class="done">Done</button> -->
+                        <!-- <button class="remove">Remove</button> -->
+                    <!-- </div> -->
+                <!-- </article> -->
+
+            </div>
+        </section>
+    </main>
+<footer class="footer">&copy;2024 Abdullah Ramadan.</footer>
+    <!---------------- LINK -------------->
+    <script src="asset/js/main.js"></script>
+</body>
+</html>
